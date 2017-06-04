@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.literacyapp.analytics.eventtracker.EventTracker;
 import org.literacyapp.contentprovider.ContentProvider;
 import org.literacyapp.contentprovider.model.content.StoryBook;
 import org.literacyapp.contentprovider.util.MultimediaHelper;
@@ -39,7 +40,7 @@ public class StoryBooksActivity extends AppCompatActivity {
 
             File storyBookCoverFile = MultimediaHelper.getFile(storyBook.getCoverImage());
             Log.i(getClass().getName(), "storyBookCoverFile: " + storyBookCoverFile);
-            if ((storyBookCoverFile != null) && storyBookCoverFile.exists()) {
+            if (storyBookCoverFile.exists()) {
                 ImageView storyBookImageView = (ImageView) storyBookView.findViewById(R.id.storyBookCoverImageView);
                 Bitmap bitmap = BitmapFactory.decodeFile(storyBookCoverFile.getAbsolutePath());
                 storyBookImageView.setImageBitmap(bitmap);
@@ -56,10 +57,10 @@ public class StoryBooksActivity extends AppCompatActivity {
                     Log.i(getClass().getName(), "storyBook.getId(): " + storyBook.getId());
                     Log.i(getClass().getName(), "storyBook.getTitle(): " + storyBook.getTitle());
 
-//                    EventTracker.reportStoryBookLearningEvent(getApplicationContext(), storyBook.getId());
+                    EventTracker.reportStoryBookLearningEvent(getApplicationContext(), storyBook.getId());
 
 //                    Intent intent = new Intent(getApplicationContext(), StoryBookActivity.class);
-//                    intent.putExtra(StoryBookActivity.EXTRA_KEY_VIDEO_ID, storyBook.getId());
+//                    intent.putExtra(StoryBookActivity.EXTRA_KEY_STORYBOOK_ID, storyBook.getId());
 //                    startActivity(intent);
                 }
             });
