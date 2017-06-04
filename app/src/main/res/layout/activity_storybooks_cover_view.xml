@@ -9,10 +9,29 @@
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground">
 
-    <ImageView
-        android:id="@+id/storyBookCoverImageView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/storybook_cover"
-        android:adjustViewBounds="true" />
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/storyBookCoverImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/storybook_cover" />
+
+        <TextView
+            android:id="@+id/storyBookCoverTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/storyBookCoverImageView"
+            android:text="Mogau's Gift"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#F2FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:maxLines="1" />
+    </RelativeLayout>
 </android.support.v7.widget.CardView>
