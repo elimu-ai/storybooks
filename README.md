@@ -1,4 +1,5 @@
 # egra-storybooks
 Android application for listening to storybooks
 
-![storybooks_xoom](https://cloud.githubusercontent.com/assets/15718174/26761450/04c8f7b0-4930-11e7-9a2e-349fceaa7e0f.png)
+![screenshot_20170605-181404](https://cloud.githubusercontent.com/assets/15718174/26792688/8a2063b2-4a1b-11e7-8db7-9a160b897cd5.png)
+
