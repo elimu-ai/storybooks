@@ -1,5 +1,6 @@
 package org.literacyapp.storybooks;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -60,8 +61,9 @@ public class StoryBooksActivity extends AppCompatActivity {
                     EventTracker.reportStoryBookLearningEvent(getApplicationContext(), storyBook.getId());
 
 //                    Intent intent = new Intent(getApplicationContext(), StoryBookActivity.class);
-//                    intent.putExtra(StoryBookActivity.EXTRA_KEY_STORYBOOK_ID, storyBook.getId());
-//                    startActivity(intent);
+                    Intent intent = new Intent(getApplicationContext(), TabbedActivity.class);
+                    intent.putExtra(TabbedActivity.EXTRA_KEY_STORYBOOK_ID, storyBook.getId());
+                    startActivity(intent);
                 }
             });
 
