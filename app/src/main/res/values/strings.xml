@@ -3,4 +3,27 @@
     <string name="title_activity_tabbed">TabbedActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="library_text">
+        <item>Mlinzi na chekechea yake ya kipekee</item>
+        <item>Hi ni hadithi ya Mlinzi na chekechea yake ya wanyama mayatima.</item>
+        <item>Agosti ulikuwa mwezi wenye shughuli nyingi sana kwa Mlinzi na wasaidizi wake katika chekechea.</item>
+        <item>Aliyefika kwanza alikuwa Mkite wa umri wa mwaka mmoja.\n\nAlikuwa ambebebwa katika lori la kijani kibichi.</item>
+        <item>Mlinzi na wasaidizi wake walimwonea Mkite huruma sana.\n\nAlikuwa amekonda na mwenye huzuni.</item>
+        <item>Lakini muda mfupi baadaye, Mkite alikuwa mwenye afya.\n\nAlianza kucheza na wanyama wengine katika chekechea.</item>
+        <item>Siku nyingine katika mwezi huo wa Agosti, helikopta ilitua mbele ya chekechea.</item>
+        <item>Mlinzi na wasaidizi wake waliharakisha kwenda nje.\n\nNdani ya helikopta, mtoto wa ndovu alifungwa katika blanketi kubwa.</item>
+        <item>Ni Ndiwa aliyekuwa katika blanketi. Alikuwa na umri wa siku tano.\n\nMlinzi alimlisha Ndiwa kutumia chupa.</item>
+        <item>Yatima wa tatu mwezi huo alikuwa Malea.\n\nAlifikshwa katika chekechea kwa kubebwa kwenye trekta nyekundu.\n\nAlikuwa na umri wa miezi sita.</item>
+        <item>Malea alikuwa kifaru. Alikuwa rafiki wa karibu wa Enkare ambaye alikuwa nyati mtoto.\n\nWalienda pamoja kila mahali.</item>
+        <item>Usiku mmoja, kila mmoja aliamshwa na kufika kwa Ambia.</item>
+        <item>Ambia alikuwa na umri wa miezi mitano.\n\nAlihisi njaa na uchovu baada ya safari ndefu.</item>
+        <item>Kwa sababu ya shingo lake refu, Mlinzi aliishikia chupa juu ili kumlisha.</item>
+        <item>Mapacha Abei na Moit walifika katikati ya mwezi Agosti.\n\nWalikuwa wamezaliwa saa chache tu.\n\nWalikuwa wagonjwa sana.</item>
+        <item>Kila mmoja alihuzunika wakati Abei aliaga dunia wiki moja baada ya kufika pale chekechea.\n\nLakini Mlinzi na wasaidizi wake walimwokoa Moit.</item>
+        <item>Mayatima wa mwisho kufika mwezi huo wa Agosti walikuwa Kopi, Kepi na Keji.\n\nHawa wanasimba walikuwa na umri wa wiki mbili.\n\nWalihisi kiu sana walikpofika.</item>
+        <item>Mlinzi na wasaidizi wake waliwapenda wanyama wote hata wale watukutu.</item>
+        <item>Mtukutu zaidi alikuwa Lobolia.\n\nLobolia alizoea kuficha miwani ya Mlinzi.</item>
+        <item>Watu wote hapo chekechea wanafanya bidii kuwatunza wanyama hawa watoto.\n\nWanatumai kwamba siku moja mayatima hao wataweza kujitegemea wenyewe siku moja.\n\nHalafu wataweza kurudi porini.</item>
+    </string-array>
 </resources>

@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:gravity="center">
 
         <ImageView
@@ -25,10 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:gravity="center">
 
         <Button
             android:id="@+id/listenButton"
+            android:visibility="gone"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:background="@drawable/button_custom"
@@ -38,8 +40,12 @@
 
         <TextView
             android:id="@+id/section_label"
+            android:visibility="visible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone" />
+            android:layout_marginLeft="40dp"
+            android:text="Mlinzi na chekechea yake"
+            android:textSize="40sp"
+            android:lineSpacingExtra="20sp" />
     </LinearLayout>
 </LinearLayout>

@@ -139,7 +139,10 @@ public class TabbedActivity extends AppCompatActivity {
             storyBookPageImageView.setImageDrawable(getActivity().getDrawable(drawableIdentifier));
 
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            String[] textArray = getResources().getStringArray(R.array.library_text);
+            String text = textArray[getArguments().getInt(ARG_SECTION_NUMBER) - 1];
+            Log.i(getClass().getName(), "text: " + text);
+            textView.setText(text);
 
             return rootView;
         }
