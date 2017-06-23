@@ -33,7 +33,7 @@ public class StoryBooksActivity extends AppCompatActivity {
 
         storyBooksGridLayout = (GridLayout) findViewById(R.id.storyBookGridLayout);
 
-        List<StoryBook> storyBooks = ContentProvider.getStoryBooks(GradeLevel.LEVEL1);
+        List<StoryBook> storyBooks = ContentProvider.getAllStoryBooks(GradeLevel.LEVEL1);
         Log.i(getClass().getName(), "storyBooks.size(): " + storyBooks.size());
 
         for (final StoryBook storyBook : storyBooks) {

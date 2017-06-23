@@ -46,6 +46,8 @@
             android:layout_marginLeft="40dp"
             android:text="Mlinzi na chekechea yake"
             android:textSize="40sp"
+            android:clickable="true"
+            android:textIsSelectable="true"
             android:lineSpacingExtra="20sp" />
     </LinearLayout>
 </LinearLayout>
