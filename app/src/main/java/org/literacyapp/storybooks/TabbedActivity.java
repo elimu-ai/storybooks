@@ -144,6 +144,15 @@ public class TabbedActivity extends AppCompatActivity {
             Log.i(getClass().getName(), "text: " + text);
             textView.setText(text);
 
+            textView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.i(getClass().getName(), "onClick");
+
+
+                }
+            });
+
             return rootView;
         }
     }
