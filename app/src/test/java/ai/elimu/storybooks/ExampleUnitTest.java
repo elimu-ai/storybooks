@@ -1,4 +1,4 @@
-package org.literacyapp.storybooks;
+package ai.elimu.storybooks;
 
 import org.junit.Test;
 
