@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="org.literacyapp.storybooks.TabbedActivity">
+    tools:context="ai.elimu.storybooks.ai.elimu.storybooks.TabbedActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

@@ -1,4 +1,4 @@
-package org.literacyapp.storybooks;
+package ai.elimu.storybooks;
 
 import android.media.MediaPlayer;
 import android.support.design.widget.FloatingActionButton;
